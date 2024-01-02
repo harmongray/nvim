@@ -51,8 +51,6 @@ return require('packer').startup(function(use)
 	}
 	use 'akinsho/bufferline.nvim'	
 	
-	use { 'folke/trouble.nvim' }
-
 	use { 
 		'nvimdev/dashboard-nvim',
 
