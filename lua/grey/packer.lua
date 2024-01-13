@@ -22,8 +22,6 @@ return require('packer').startup(function(use)
 
 	use({ 'rose-pine/neovim', as = 'rose-pine', disable_italics = true })
 
-	use 'm4xshen/autoclose.nvim'
-
 	use {'ojroques/nvim-hardline'}
 
 	use 'voldikss/vim-floaterm'
