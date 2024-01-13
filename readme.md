@@ -4,7 +4,6 @@
 - Find files: `<leader>ff`
 - Find in current buffer: `<leader>fz`
 - live `grep`: `<leader>fw`
-- List previously open files: `<leader>fo`
 
 ### LSP:
 - lsp: select previous suggestions `<C-p>` = `cmp.mapping.select_prev_item(cmp_select)`
