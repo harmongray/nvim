@@ -5,6 +5,10 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 	-- Packer can manage itself
+	--
+	use { 'ibhagwan/smartyank.nvim' }
+
+	-- use {'ojroques/nvim-osc52'}
 
 	use 'wbthomason/packer.nvim'
 
@@ -47,8 +51,6 @@ return require('packer').startup(function(use)
 			{'L3MON4D3/LuaSnip'},
 		}
 	}
-	use 'akinsho/bufferline.nvim'	
-	
 	use { 
 		'nvimdev/dashboard-nvim',
 
